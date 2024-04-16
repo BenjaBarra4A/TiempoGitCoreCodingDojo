@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/tiempo.icon.png">
+</head>
+<body>
+    <nav class="Tiempo_Nacional" id="Clima_Nacional">
+        <h1 class="Tiempo"> <em> Tiempo Local </em> </h1>
+        <ul>
+            <li><a href="#" class="links" id="Arg">Buenos Aires</a></li>
+            <li><a href="#" class="links" id="Mx">Ciudad de México</a></li>
+            <li><a href="#" class="links" id="Cl">Santiago</a></li>
+            <li><a href="#" class="links" id="Br">Sao Paulo</a></li>
+            <li><a href="#" class="links" id="Ec">Quito</a></li>
+        </ul>
+        <div class="Tipo_Temperatura">
+            <p>Mostrar Temperatura en 
+            <select name="Grados" class="grados">
+                <option value=" C "> °C </option>
+                <option value=" F "> °F </option>
+            </select>
+            </p>
+        </div>
+    </nav>
+
+    <div class="localidad">
+        <h1 id="localidad"> Buenos Aires </h1>
+    </div>
+
+    <div class="dias" id="semana">
+        <div class="Lunes" id="Lunes_dia">
+            <img src="img/nube.icon.png" alt="" class="Lunes" id="nublado">
+            <p class="Lunes" id="hoy">Hoy </p>
+                <p id="tipo1"> Nublado </p> </p>
+                <p id="grados1">22°C° 15°C°</p>
+        </div>
+        <div class="Martes" id="Martes_dia">
+            <img src="img/lluvia.icon.png" alt="" class="Martes" id="lluvia">
+            <p class="Martes" id="Mañana">Mañana  </p>
+                <p id="tipo2"> Lluvioso </p> 
+                <p id="grados2">20°C° 13°C°</p>
+        </div>
+        <div class="Miercoles" id="Miercoles_dia">
+            <img src="img/tormenta.png" alt="" class="Martes" id="tormenta">
+            <p class="Miercoles" id="Miercoles">Miercoles</p>
+            <p id="tipo3"> Tormentas </p> 
+            <p id="grados3">18°C° 11°C°</p>
+        </div>
+        <div class="Jueves" id="Jueves_dia">
+            <img src="img/nube.icon.png" alt="" class="Martes" id="medio_nublado">
+            <p class="Jueves" id="Jueves">Jueves </p>
+            <p id="tipo4"> Parcialmente Nublado </p> 
+            <p id="grados4">21°C° 14°C°</p>
+        </div>
+        <div class="Viernes" id="Viernes_dia">
+            <img src="img/sol.png" alt="" class="Viernes" id="soleado">
+            <p class="Martes" id="Viernes">Viernes </p>
+            <p id="tipo5"> Soleado </p> 
+            <p id="grados5">24°C° 17°C°</p>
+        </div>
+    </div>
+
+    <footer id="galletas">
+        Detente! tiempo de cookies. Usamos cookies (tristemente, no las comestibles) 
+        para personalizar contenido y anuncios, proporcionar funciones de redes sociales y analizar nuestro trafico. <a href="https://www.youtube.com/watch?v=BtLSaxRnIhc">Leer Más...</a> 
+        <button type="submit" id="botonA" >Acepto</button>
+    </footer>
+</body>
+</html>
